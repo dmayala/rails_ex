@@ -1,5 +1,5 @@
 App::Application.routes.draw do
-  get "users/new"
+  resources :users
   root 'static_pages#home'
   match '/home', to: 'static_pages#home', via: 'get'
   match '/about', to: 'static_pages#about', via: 'get'
@@ -8,8 +8,6 @@ App::Application.routes.draw do
   match '/signup',  to: 'users#new',            via: 'get'
 
   resources :microposts
-
-  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
