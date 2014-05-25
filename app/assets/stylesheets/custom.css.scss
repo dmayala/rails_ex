@@ -185,7 +185,8 @@ input, textarea, select, .uneditable-input {
   @extend .error;
 }
 
-/* users index */
+/* Users index */
+
 .users {
   list-style: none;
   margin: 0;
@@ -198,7 +199,6 @@ input, textarea, select, .uneditable-input {
     }
   }
 }
-
 /* microposts */
 
 .microposts {
