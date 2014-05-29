@@ -199,6 +199,7 @@ input, textarea, select, .uneditable-input {
     }
   }
 }
+
 /* microposts */
 
 .microposts {
@@ -213,7 +214,7 @@ input, textarea, select, .uneditable-input {
 .content {
   display: block;
 }
-.timestamp{ 
+.timestamp {
   color: $grayLight;
 }
 .gravatar {
